@@ -6,7 +6,7 @@ gulp.task('default', function () {
   return gulp.src('./sass/**/*.scss')
     .pipe(sass.sync().on('error', sass.logError))
     .pipe(min())
-    .pipe(gulp.dest('./public'));
+    .pipe(gulp.dest('./public/assets'));
 });
 
 gulp.task('sass:watch', function () {

@@ -22,3 +22,24 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.eventDiv {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.eventDivTwo {
+  font-family: Helvetica, Arial;
+  font-size: 12px;
+  padding: 10px 0 5px;
+  margin: 2px;
+  width: 100%;
+  text-align: left;
+}
+
+.powered-by-eb {
+  color: #ADB0B6;
+  text-decoration: none;
+}

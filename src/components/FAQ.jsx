@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class FAQ extends Component {
   render() {
     return (
-      <div className="box">
-        <h3>FAQ</h3>
+      <div className="box box-back">
+        <h3 className="box">FAQ</h3>
         <div className="box">
           <h4>What is a hackathon?</h4>
           <hr />

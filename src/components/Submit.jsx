@@ -13,17 +13,14 @@ class Submit extends Component {
 
   render() {
     return (
-      <div className="box">
-        <p className="App-intro">
+      <div className="box box-back">
+        <p className="App-intro box">
           To get signed up, enter your name, email address, and then register your ticket in the field below!
         </p>
         <form onSubmit={this.submit}>
-          <input className="input" onChange={this.handleNameChange} type="text" name="name" placeholder="Enter Name" />
-          <br />
-          <input className="input" onChange={this.handleEmailChange} type="email" name="email" placeholder="Enter Email" />
-          <br />
-          <br />
-          <input className="button is-primary" type="submit" value="submit" />
+          <input className="input box" onChange={this.handleNameChange} type="text" name="name" placeholder="Enter Name" />
+          <input className="input box" onChange={this.handleEmailChange} type="email" name="email" placeholder="Enter Email" />
+          <input className="button box" type="submit" value="submit" />
         </form>
       </div>
     );

@@ -17,6 +17,8 @@ class Submit extends Component {
           <input className="input" onChange={this.handleNameChange} type="text" name="name" placeholder="Enter Name" />
           <br />
           <input className="input" onChange={this.handleEmailChange} type="email" name="email" placeholder="Enter Email" />
+          <br />
+          <br />
           <input className="button is-primary" type="submit" value="submit" />
         </form>
       </div>

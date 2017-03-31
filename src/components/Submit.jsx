@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import superagent from 'superagent';
 
+
 class Submit extends Component {
   constructor(props){
     super(props);
@@ -13,6 +14,9 @@ class Submit extends Component {
   render() {
     return (
       <div className="">
+        <p className="App-intro">
+          To get signed up, enter your name, email address, and then register your ticket in the field below!
+        </p>
         <form onSubmit={this.submit}>
           <input className="input" onChange={this.handleNameChange} type="text" name="name" placeholder="Enter Name" />
           <br />

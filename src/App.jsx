@@ -18,11 +18,10 @@ class App extends Component {
             <img src={logo} className="App-logo" alt="logo" />
           </div>
           {/*<Intro />*/}
-          <p className="App-intro">
-            To get signed up, enter your name and email address.
-          </p>
 
-          <Submit />
+          <div className="box">
+            <Submit />
+          </div>
 
           <br />
 

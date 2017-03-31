@@ -13,7 +13,7 @@ class Submit extends Component {
 
   render() {
     return (
-      <div className="">
+      <div className="box">
         <p className="App-intro">
           To get signed up, enter your name, email address, and then register your ticket in the field below!
         </p>

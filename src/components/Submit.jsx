@@ -14,10 +14,10 @@ class Submit extends Component {
     return (
       <div className="">
         <form onSubmit={this.submit}>
-          <input onChange={this.handleNameChange} type="text" name="name" placeholder="Enter Name" />
+          <input className="input" onChange={this.handleNameChange} type="text" name="name" placeholder="Enter Name" />
           <br />
-          <input onChange={this.handleEmailChange} type="email" name="email" placeholder="Enter Email" />
-          <input type="submit" value="submit" />
+          <input className="input" onChange={this.handleEmailChange} type="email" name="email" placeholder="Enter Email" />
+          <input className="button is-primary" type="submit" value="submit" />
         </form>
       </div>
     );

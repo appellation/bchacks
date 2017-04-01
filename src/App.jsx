@@ -13,8 +13,16 @@ import Sponsors from './components/Sponsors.jsx'
 class App extends Component {
   render(){
     return(
-      <div className="App content">
-        <Nav />
+      <div>
+        <section className="hero is-primary is-fullheight">
+          <div className="hero-head"><Nav /></div>
+          <div className="hero-body">
+            <div className="container has-text-centered">
+              <h1 className="title">BC Hacks</h1>
+            </div>
+          </div>
+        </section>
+
         <div className="box">
           <Title />
 

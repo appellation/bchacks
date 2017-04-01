@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Container from './components/Container.jsx';
 import Nav from './components/Nav.jsx';
 import Title from './components/Title.jsx'
 import Submit from './components/Submit.jsx';
